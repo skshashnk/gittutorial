@@ -8,6 +8,17 @@ git add <filename>
 git commit -m "message"
 git restore --staged <filename> -----> stage to unstage
 git checkout -- <filename> (note: file name after space)----> unmodify the last changes
+git checkout -f ----> this will take us to last commit
 
 git mv <filename> <newname> ---> rename the file
 git rm <filename> ----> remove the file
+
+Push and Pull the remote repo
+------------------------------
+crete a repo in github
+git remote add origin <url code>
+git remote ----> to check if remote is added
+git remote -v ----> to see remote repo for pull and push
+git push -u origin main
+
+after authentication, repo will be uploaded
