@@ -1,0 +1,13 @@
+git init
+git status
+git log
+git log -p -2
+git diff
+git add --a
+git add <filename>
+git commit -m "message"
+git restore --staged <filename> -----> stage to unstage
+git checkout -- <filename> (note: file name after space)----> unmodify the last changes
+
+git mv <filename> <newname> ---> rename the file
+git rm <filename> ----> remove the file
